@@ -1,0 +1,76 @@
+/*----------------------------------------
+	Hoja para estilos personalizados
+------------------------------------------ */
+
+html, body{
+	background-image: url("../img/bg.jpg");
+}
+a{
+	color: #757575;
+}
+a:hover{
+	text-decoration:none;
+	color: #444;
+}
+div#main-container{
+	width:80%;
+	margin:0 auto;
+}
+section#contenido{
+	border-bottom:solid 1px #dadada;
+	padding:0.83em 0;	
+}
+
+header{
+	margin-top:50px;
+	border-top:solid 1px #dadada;
+	border-bottom:solid 1px #dadada;
+}
+nav#nav-bar{
+	text-align:right;
+	display: inline-block;
+    float: right;
+    padding: 0 15px;
+    position: relative;
+    top: 27px;
+}
+div.limpia{
+    clear: both;
+}
+span.negrita{
+    font-weight: bold;
+}
+div#login-form-container{
+	max-height:550px;
+	width:100%;
+	margin:0 auto;
+}
+section.panel-wrapper .panel-item{
+	text-align:center;
+}
+a h5{
+    font-size: 14px;
+    font-weight:bold;
+}
+a h5:hover{
+	
+}
+div#logo{
+	float: left;
+	padding:15px;
+}
+div#logo img{		
+    width: 85px;erforror
+}
+div.btn-submit{
+	text-align:right;
+}
+.form-element-error{
+	box-shadow: 0 0px 5px #f00 inset;
+}
+
+@media (max-width:490px){
+	nav#nav-bar{
+	    top: 1px;
+	}
+}
